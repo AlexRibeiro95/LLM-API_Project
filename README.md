@@ -6,10 +6,10 @@ This project leverages OpenAI’s GPT-3.5-turbo model to generate personalized p
 
 ### Features
 
-	•	Interactive User Input: Collects user preferences through a simple interface.
-	•	AI-Powered Recommendations: Generates product suggestions using the OpenAI API.
-	•	Customization: Allows adjustments of parameters like temperature to control the creativity of recommendations.
-	•	Error Handling: Manages API rate limits and other potential errors gracefully.
+•Interactive User Input: Collects user preferences through a simple interface.
+•AI-Powered Recommendations: Generates product suggestions using the OpenAI API.
+•Customization: Allows adjustments of parameters like temperature to control the creativity of recommendations.
+•Error Handling: Manages API rate limits and other potential errors gracefully.
 
 ### Setup Instructions
 
@@ -68,21 +68,21 @@ streamlit run app.py
 
 Main Components
 
-•	collect_user_input(): Prompts the user for preferences and combines the inputs into a summary string.
-•	generate_product_recommendations(): Interacts with the OpenAI API to generate product suggestions based on user input.
-•	Streamlit Interface: Provides an interactive web interface for users to enter preferences and receive recommendations.
+•collect_user_input(): Prompts the user for preferences and combines the inputs into a summary string.
+•generate_product_recommendations(): Interacts with the OpenAI API to generate product suggestions based on user input.
+•Streamlit Interface: Provides an interactive web interface for users to enter preferences and receive recommendations.
 
 Parameters
 
-•	temperature: Controls the creativity of the output. Lower values (e.g., 0.3) produce more predictable results, while higher values (e.g., 0.9) increase creativity.
-•	max_tokens: Limits the length of the generated recommendations. Adjust to control detail and verbosity.
+•temperature: Controls the creativity of the output. Lower values (e.g., 0.3) produce more predictable results, while higher values (e.g., 0.9) increase creativity.
+•max_tokens: Limits the length of the generated recommendations. Adjust to control detail and verbosity.
 
 ### Experimentation and Findings
 
 Experiments were conducted to analyze how different parameters affect the quality of recommendations:
 
-•	Low Temperature: Provided predictable and reliable recommendations.
-•	High Temperature: Generated more diverse and creative suggestions, though some were unconventional.
+•Low Temperature: Provided predictable and reliable recommendations.
+•High Temperature: Generated more diverse and creative suggestions, though some were unconventional.
 
 #### Lessons Learned
 
@@ -90,9 +90,9 @@ This project demonstrated the integration of language models via an API, the imp
 
 Future Improvements
 
-•	User Interface Enhancements: Develop a more sophisticated UI for better user experience.
-•	Feedback Loop: Implement a feedback mechanism for users to rate recommendations, allowing the tool to learn and improve.
-•	Expanded Data Sources: Integrate additional data sources, such as product reviews, to enhance recommendation accuracy.
+•User Interface Enhancements: Develop a more sophisticated UI for better user experience.
+•Feedback Loop: Implement a feedback mechanism for users to rate recommendations, allowing the tool to learn and improve.
+•Expanded Data Sources: Integrate additional data sources, such as product reviews, to enhance recommendation accuracy.
 
 #### Summary
 
