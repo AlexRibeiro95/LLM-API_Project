@@ -30,7 +30,7 @@ def generate_product_recommendations(user_preferences, temperature=0.7, max_toke
 
 # Streamlit app interface
 def main():
-    st.title("AI-Powered Product and Service Recommendation Tool")
+    st.title("AI-Powered Product and Services Recommendation Tool")
     
     # Session state to manage the form reset
     if 'submitted' not in st.session_state:
@@ -60,9 +60,9 @@ def main():
                 st.warning("Please fill in all the fields to get recommendations.")
     
     with col2:
-        if st.button("Restart"):
-            st.session_state.submitted = False
-            st.experimental_rerun()  # Refreshes the page to clear input fields and restart the app
+    if st.button("Restart"):
+        for key in st.session_state.keys():
+            del st.session_state[key] # Simulates a rerun by setting query params
 
 if __name__ == "__main__":
     main()
