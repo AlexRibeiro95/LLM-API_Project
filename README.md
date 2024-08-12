@@ -108,7 +108,7 @@ Future Improvements
 
 #### Presentation:
 
-- ![Presentation Link](https://docs.google.com/presentation/d/1K9Y4y1ETuDo3eau1HI3qnnsub1dY2kU1w-FFnhSNt7M/edit#slide=id.g2f221743250_0_0)
+- [Presentation Link](https://docs.google.com/presentation/d/1K9Y4y1ETuDo3eau1HI3qnnsub1dY2kU1w-FFnhSNt7M/edit#slide=id.g2f221743250_0_0)
 
 
  
