@@ -13,7 +13,7 @@ You can use the GPT API or select an API provider, such as Hugging Face API, bas
 1. Sign up for the chosen API provider and obtain the necessary API keys or access tokens.
 2. Follow the provider’s documentation to understand the authentication process and ensure you have the required permissions to make API requests.
 
-##Implementing the Use Case
+## Implementing the Use Case
 
 1. **Select a Use Case**: Choose a specific use case or business scenario where you can leverage the Language Model API. This could involve tasks such as generating text, answering questions, providing recommendations, or any other language-related task.
 
