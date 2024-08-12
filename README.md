@@ -4,6 +4,10 @@
 
 This project leverages OpenAI’s GPT-3.5-turbo model to generate personalized product recommendations based on user preferences. The tool prompts users for their activities, interests, and needs, then generates relevant product suggestions. This project explores the capabilities of language models in providing customized recommendations, similar to those used in real-world e-commerce platforms.
 
+#### DEMO:
+
+- https://drive.google.com/file/d/1ePXHZk8ZZFI4u1gn4QlxnVzhf0q4-Wyk/view?usp=sharing
+
 ### Features
 
 •Interactive User Input: Collects user preferences through a simple interface.
