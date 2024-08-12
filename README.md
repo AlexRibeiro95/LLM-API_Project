@@ -2,7 +2,7 @@
 
 ## Project Statement
 
-In this mini-project, you will explore Language Models using an API of your choice, such as ChatGPT or any other AI API. The goal is to gain hands-on experience in utilizing Language Models and understanding their capabilities. You will select a use case or create a simple business case and implement it by leveraging the chosen API.
+In this mini-project, we will explore Language Models using an API of our choice, such as ChatGPT or any other AI API. The goal is to gain hands-on experience in utilizing Language Models and understanding their capabilities. We selected a use case or create a simple business case and implement it by leveraging the chosen API.
 
 ## Choose a Language Model API
 
