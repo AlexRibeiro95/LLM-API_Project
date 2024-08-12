@@ -60,9 +60,9 @@ def main():
                 st.warning("Please fill in all the fields to get recommendations.")
     
     with col2:
-    if st.button("Restart"):
-        for key in st.session_state.keys():
-            del st.session_state[key] # Simulates a rerun by setting query params
+        if st.button("Restart"):
+            for key in st.session_state.keys():
+                del st.session_state[key] # Simulates a rerun by setting query params
 
 if __name__ == "__main__":
     main()
